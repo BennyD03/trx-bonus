@@ -1,0 +1,45 @@
+@media (min-width:320px) and (max-width:768px) {
+    .container-two h1 {
+        font-size: 2rem;
+    }
+    .container-two p {
+        font-size: 1rem;
+    }
+    .img {
+        padding: 15%;
+    }
+    .container-two .au {
+        margin-left: 10%;
+    }
+    footer {
+        text-align: center;
+    }
+}
+@media (min-width: 375px) and (max-width:768px) {
+    .container-two .au {
+        margin-left: 17%;
+    }
+    footer {
+        text-align: center;
+    }
+}
+@media (min-width:425px) and (max-width:768px) {
+       .container-two .details {
+           margin-right: 4rem;
+       }
+       .container-two .au {
+           margin-left: 20%;
+       }
+       footer {
+        text-align: center;
+    }
+}
+
+@media (min-width:768px) and (max-width:1024px) {
+    .container-two .details {
+        margin: 1rem;
+    }
+    footer {
+        text-align: center;
+    }
+}
